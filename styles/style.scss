@@ -1,1 +1,14 @@
 @use "./base/reset"as *;
+
+
+
+
+
+@use "./themes/index.scss";
+
+
+
+body{
+    font-family: 'Jost',sans-serif;
+    @extend %colors;
+}
