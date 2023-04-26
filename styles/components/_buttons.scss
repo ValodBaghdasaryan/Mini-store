@@ -1,0 +1,12 @@
+@use "../base/index.scss"as *;
+@use "../themes/index.scss" as *;
+
+
+.btn{
+    padding: 1em 3.125em;
+    @extend %button-text;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+
+}

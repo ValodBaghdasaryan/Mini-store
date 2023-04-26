@@ -1,4 +1,4 @@
-@use "./index.scss" as *;
+@use "../abstract/index.scss" as *;
 
 %body1 {
   font-weight: 400;
@@ -42,4 +42,11 @@
   font-weight: 400;
   font-size: crem(30px);
   line-height: 1.3;
+}
+
+%big-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: crem(83px);
+  line-height:1.4;
 }

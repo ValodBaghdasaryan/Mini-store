@@ -1,11 +1,14 @@
+@use "./base/reset";
 @use "./abstract/index.scss"as *;
 @use "./base/index.scss"as *;
+@use "./layout/header"as *;
+@use "./layout/shop"as *;
+@use "./layout/features"as *;
+@use "./layout/products"as *;
+@use "./components/index.scss"as *;
 
 
-
-
-
-@use "./themes/index.scss";
+@use "./themes/index.scss"as *;
 
 
 

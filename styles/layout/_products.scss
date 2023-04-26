@@ -1,0 +1,63 @@
+@use "../base/index.scss"as *;
+@use "../themes/index.scss"as *;
+
+.products{
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;
+    &__titles{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.875em;
+    }
+    &__title{
+        @extend %section-tittle;
+        text-transform: uppercase;
+    }
+    &__shop{
+        @extend %paragraph-size;
+        text-transform: uppercase;
+        padding-top: 0.9375em;
+    }
+    &__boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+        gap: 1.25em;
+    }
+    &__img{
+        width: 100%;
+        object-fit: cover;
+    }
+    &__value{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top:.7em;
+    }
+    &__name{
+        @extend %secondary-parag-size;
+        text-transform: uppercase;
+    }
+    &__price{
+        @extend %secondary-parag-size;
+        color: var(--paragraph-hover-color);
+        text-transform: uppercase;
+    }
+    &__slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:1.25em;
+    }
+
+    &__slide--circle{
+        width: 0.625em;
+        height: 0.625em;
+        background-color: var(--icons-color);
+        margin: 0.625em;
+        border-radius: 50%;
+    }
+    &__slide--circle:nth-child(1){
+        background-color: var( --tertiary-color);
+    }
+
+}

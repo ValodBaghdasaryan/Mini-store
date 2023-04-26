@@ -1,0 +1,39 @@
+@use "../base/index.scss"as *;
+
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 0;
+}
+
+.header__primary--tittle{
+    @extend %section-tittle;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__item{
+    margin: 0 .5em;
+}
+
+.header__link{
+    text-decoration: none;
+    color:var(--primary-color);
+    @extend %button-text;
+    text-transform: uppercase;
+    transition: .2s linear;
+}
+.header__link:hover{
+    color: var( --paragraph-hover-color);
+}
+
+.header__img{
+    margin: 0 .5em;
+}
+
+
+

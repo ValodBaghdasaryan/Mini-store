@@ -1,0 +1,31 @@
+@use "../base/index.scss"as *;
+@use "../themes/index.scss"as *;
+
+
+
+.features{
+    &__boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(285px,1fr));
+        gap: 1.5em;
+        margin-top: 7.5em;
+
+    }
+    &__box{
+        display: flex;
+        
+        gap: 10px;
+    }
+    &__img{
+        width: 20px;
+        height: 20px;
+    }
+    &__title{
+       @extend %secondary-parag-size;
+       margin-bottom: 0.3125em;
+
+    }
+    &__paragraph{
+        @extend %thirtary-size;
+    }
+}
