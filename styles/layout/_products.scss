@@ -17,6 +17,7 @@
         @extend %paragraph-size;
         text-transform: uppercase;
         padding-top: 0.9375em;
+        border-bottom: 3px solid var(--icons-color);
     }
     &__boxes{
         display: grid;
@@ -33,9 +34,11 @@
         align-items: center;
         padding-top:.7em;
     }
+    
     &__name{
         @extend %secondary-parag-size;
         text-transform: uppercase;
+        margin-bottom: 5px;
     }
     &__price{
         @extend %secondary-parag-size;

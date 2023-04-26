@@ -156,7 +156,7 @@ table {
   line-height: 1.2;
 }
 
-.products__title, .shop__parag, .header__primary--tittle {
+.aforizm__paragraph, .products__title, .shop__parag, .header__primary--tittle {
   font-style: normal;
   font-weight: 400;
   font-size: 1.875rem;
@@ -261,6 +261,7 @@ body {
 .products__shop {
   text-transform: uppercase;
   padding-top: 0.9375em;
+  border-bottom: 3px solid var(--icons-color);
 }
 .products__boxes {
   display: grid;
@@ -279,6 +280,7 @@ body {
 }
 .products__name {
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 .products__price {
   color: var(--paragraph-hover-color);
@@ -299,6 +301,24 @@ body {
 }
 .products__slide--circle:nth-child(1) {
   background-color: var(--tertiary-color);
+}
+
+.aforizm {
+  margin-bottom: 7.5em;
+}
+.aforizm__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.875em;
+  text-align: center;
+}
+.aforizm__vector {
+  width: 91px;
+  height: 65px;
+}
+.aforizm__paragraph {
+  margin-bottom: 1.875em;
 }
 
 .container {

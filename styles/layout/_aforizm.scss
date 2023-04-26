@@ -1,0 +1,25 @@
+@use "../base/index.scss" as *;
+@use "../themes/index.scss" as *;
+
+.aforizm {
+    margin-bottom: 7.5em;
+  &__container {
+    // display: grid;
+    // grid-template-columns:1fr 15fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.875em;
+    text-align: center;
+  }
+  &__vector{
+    width: 91px;
+    height:65px;
+  }
+  &__paragraph{
+    @extend %section-tittle;
+    margin-bottom: 1.875em;
+
+  }
+
+}
