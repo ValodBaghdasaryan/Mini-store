@@ -1,0 +1,38 @@
+@use "../base/index.scss" as *;
+@use "../themes/index.scss" as *;
+
+
+.subscribe{
+    
+    &__boxes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+        padding: 80px 110px;
+        color: var(--secondary-color);
+    }
+
+    &__title{
+        @extend %section-tittle;
+        text-transform: uppercase;
+        margin-bottom: 0.625em;
+    }
+
+    &__paragrapg{
+        @extend %thirtary-size;
+    }
+    &__inp{
+        padding: 15px 80px 15px 22px;
+        @extend %thirtary-size;
+        
+
+    }
+    &__btn{
+        padding: 15px 22px;
+        @extend %thirtary-size;
+
+    }
+
+    
+}

@@ -1,0 +1,19 @@
+@use "../base/index.scss" as *;
+@use "../themes/index.scss" as *;
+
+.footer{
+    
+    &__boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(590px,1fr));
+        gap: 2em;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        gap: 10px;
+    }
+}

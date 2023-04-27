@@ -1,0 +1,37 @@
+@use "../base/index.scss" as *;
+@use "../themes/index.scss" as *;
+
+.contacts{
+    margin-bottom: 6.25em;
+    &__boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 1.25em;
+    }
+
+    &__title--bg{
+        @extend %section-tittle;
+        margin-bottom: 0.625em;
+    }
+    &__item--paragraph{
+        @extend %thirtary-size;
+        margin-bottom:1.25em;
+    }
+    &__link{
+        padding-right: 1.875em;
+    }
+    &__title{
+        @extend %secondary-parag-size;
+        margin-bottom: 0.625em;
+    }
+    &__item{
+        @extend %paragraph-size;
+        padding-bottom: 8px;
+    }
+    &__span{
+        @extend %thirtary-size;
+        color: var(--tertiary-color);
+    }
+
+    
+}
