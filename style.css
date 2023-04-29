@@ -194,6 +194,7 @@ table {
 
 .header__link:hover {
   color: var(--paragraph-hover-color);
+  text-decoration: underline;
 }
 
 .header__img {
@@ -207,6 +208,10 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.shop__paragraph {
+  text-align: center;
+  padding-top: 77px;
 }
 .shop__parag {
   padding-left: 2.5em;
@@ -349,7 +354,9 @@ body {
   padding: 15px 80px 15px 22px;
 }
 .subscribe__btn {
-  padding: 15px 22px;
+  padding: 16px 40px;
+  background-color: var(--paragraph-hover-color);
+  color: var(--secondary-color);
 }
 
 .contacts {
@@ -403,6 +410,7 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 body {

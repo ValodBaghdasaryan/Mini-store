@@ -8,6 +8,10 @@
     justify-content: space-between;
     align-items: center;
   }
+  &__paragraph{
+    text-align: center;
+    padding-top: 77px; 
+  }
   &__parag{
     @extend %section-tittle;
     padding-left: 2.5em;

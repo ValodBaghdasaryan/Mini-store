@@ -29,8 +29,10 @@
 
     }
     &__btn{
-        padding: 15px 22px;
+        padding: 16px 40px;
         @extend %thirtary-size;
+        background-color: var(--paragraph-hover-color);
+        color: var(--secondary-color);
 
     }
 
